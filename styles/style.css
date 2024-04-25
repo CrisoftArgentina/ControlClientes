@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.bd-login {
+    background: rgb(102, 43, 219);
+    background: linear-gradient(130deg, rgba(102, 43, 219, 1) 0%, rgba(189, 20, 199, 1) 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.login-form img {
+    width: 100px;
+}
+
+.btn-base {
+    background-color: rgb(164, 78, 245);
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-base:hover {
+    background-color: rgb(175, 93, 252);
+}
+
+.form-control {
+    border-color: rgb(198, 141, 252);
+}
+.form-select {
+    border-color: rgb(198, 141, 252);
+}
+
+.violet {
+    color: rgb(147, 32, 255);
+}
+
+.container-fluid {
+    background: rgb(102, 43, 219);
+    background: linear-gradient(130deg, rgba(102, 43, 219, 1) 0%, rgba(189, 20, 199, 1) 100%);
+
+}
+
+.container-fluid img {
+    width: 50px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #ff33f5;
+}
+
+.body-clientes {
+    background-color: #fddbfc;
+}
+
+.max {
+    max-width: 700px;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.back-table {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ff89ff;
+}
+
+.pago {
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.pago-ok {
+    background-color: #7fe4b6;
+}
+
+.pago-off {
+    background-color: #fcdf5d;
+}
+
+.pago-venc {
+    background-color: #ffb1ac;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.fa-circle-check,
+.fa-circle-xmark,
+.fa-trash-can {
+    transition: transform 0.1s ease-in-out;
+}
+
+.pago:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.fa-circle-check:hover,
+.fa-circle-xmark:hover,
+.fa-trash-can:hover {
+    cursor: pointer;
+    transform: rotate(20deg);
+}
+
+.user {
+    color: #fff;
+}
+.oculto {
+    display: none !important;
+}
+
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fc74f7d2;
+    backdrop-filter: blur(12px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+.input-client {
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    
+}
+.btnAddCliente {
+background-color: #08c06d;
+border: none;
+color: #fff;
+
+}
+.btnAddCliente:hover {
+    background-color: #06a85f;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

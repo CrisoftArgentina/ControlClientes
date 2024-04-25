@@ -1,0 +1,50 @@
+[
+    {
+        "Cliente": "Cliente A",
+        "Cuit": "20-20200223-2",
+        "FechaPago": "Del 1 al 5",
+        "ProxAumento": "Marzo 2024",
+        "ValorOriginal": 30000,
+        "Valor": 50000,
+        "PrimerMes": "Marzo 2023",
+        "Plan": "Avanzado",
+        "Pago": "Pago",
+        "Limite": "05/03/2024"
+    },
+    {
+        "Cliente": "Cliente B",
+        "Cuit": "30-20200111-5",
+        "FechaPago": "Del 1 al 5",
+        "ProxAumento": "Mayo 2024",
+        "ValorOriginal": 10000,
+        "Valor": 20000,
+        "PrimerMes": "Enero 2023",
+        "Plan": "Basico",
+        "Pago": "Impago",
+        "Limite": "05/03/2024"
+    },
+    {
+        "Cliente": "Cliente C",
+        "Cuit": "20-51200855-8",
+        "FechaPago": "Del 15 al 20",
+        "ProxAumento": "Mayo 2024",
+        "ValorOriginal": 20000,
+        "Valor": 35000,
+        "PrimerMes": "Enero 2023",
+        "Plan": "Intermedio",
+        "Pago": "Impago",
+        "Limite": "10/03/2024"
+    },
+    {
+        "Cliente": "Cliente D",
+        "Cuit": "20-35258669-8",
+        "FechaPago": "Del 15 al 20",
+        "ProxAumento": "Mayo 2024",
+        "ValorOriginal": 60000,
+        "Valor": 75000,
+        "PrimerMes": "Enero 2023",
+        "Plan": "Full",
+        "Pago": "Pago",
+        "Limite": "10/03/2024"
+    }
+]
