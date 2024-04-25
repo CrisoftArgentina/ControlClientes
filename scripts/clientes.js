@@ -67,7 +67,7 @@ window.onload = function () {
 
 function obtenerDatos() {
     return new Promise((resolve, reject) => {
-        fetch('~/bd/clientes.json')
+        fetch('https://crisoftargentina.github.io/ControlClientes/bd/clientes.json')
             .then(respuesta => {
                 if (!respuesta.ok) {
                     throw new Error('No se pudo obtener los datos de los clientes');
